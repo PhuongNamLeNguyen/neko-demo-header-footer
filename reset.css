@@ -6,9 +6,12 @@
 :root {
     --main-color : #f76e34;
     --black-color: #3f3f3f;
-
+    
     --background-white-color:  #fff;
     --background-orange-color: #fef8f5;
+    
+    --btn-backgroud-color: #f76e34;
+    --btn-hover-color: #f78d60;
 
     --title-color : #3f3f3f;
     --link-color: #7a6960;
