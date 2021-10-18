@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Header - Footer Học tiếng Nhật miễn phí</title>
+    <!-- Link Fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Link CSS -->
+        <link rel="stylesheet" href="../reset.css">
+        <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-blur" onclick="toggleIconBars()"></div>
+        <nav class="navbar">
+            <section class="navbar-logo">
+                <div class="navbar-logo-name">
+                    <a href="">EASY</a>
+                    <a href="">JAPANESE</a>
+                </div>
+            </section>
+            <ul class="navbar-menu">
+                <li class="navbar-menu-item">
+                    <a href="">Trang chủ</a>
+                </li>
+                <li class="navbar-menu-item">
+                    <a href="">Từ vựng</a>
+                </li>
+                <li class="navbar-menu-item">
+                    <a href="">Ngữ pháp</a>
+                </li>
+                <li class="navbar-menu-item">
+                    <a href="">Đọc hiểu</a>
+                </li>
+                <li class="navbar-menu-item">
+                    <a href="">Nghe hiểu</a>
+                </li>
+                <li class="navbar-menu-item">
+                    <a href="" class="navbar-menu-item-link-active">Tài liệu</a>
+                </li>
+            </ul>
+            <i class="fas fa-bars fas-icon" onclick="toggleIconBars()"></i>
+            <i class="fas fa-times fas-icon" onclick="toggleIconBars()"></i>
+        </nav>
+        <nav class="side-navbar" onclick="toggleIconBars()">
+            <section class="side-navbar-logo">
+                <p>Chào mừng các bạn đến với</p>
+                <a href="">Học tiếng Nhật miễn phí</a>
+            </section>
+            <ul class="side-navbar-menu">
+                <li class="side-navbar-menu-item">
+                    <i class="fas fa-home fas-icon"></i>
+                    <a href="">Trang chủ</a>
+                </li>
+                <li class="side-navbar-menu-item">
+                    <i class="fas fa-lightbulb fas-icon"></i>
+                    <a href="">Từ vựng</a>
+                </li>
+                <li class="side-navbar-menu-item">
+                    <i class="fas fa-lightbulb fas-icon"></i>
+                    <a href="">Ngữ pháp</a>
+                </li>
+                <li class="side-navbar-menu-item">
+                    <i class="fas fa-lightbulb fas-icon"></i>
+                    <a href="">Đọc hiểu</a>
+                </li>
+                <li class="side-navbar-menu-item">
+                    <i class="fas fa-lightbulb fas-icon"></i>
+                    <a href="">Nghe hiểu</a>
+                </li>
+                <li class="side-navbar-menu-item">
+                    <i class="fas fa-book fas-icon"></i>
+                    <a href="" class="navbar-menu-item-link-active">Tài liệu</a>
+                </li>
+            </ul>
+            <section class="side-navbar-contact">
+                <p>Liên hệ</p>
+                <div>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-google"></i>
+                </div>
+            </section>
+        </nav>
+        <section class="previous-page">
+                <a href="">Tài liệu</a>
+                <i class="fas fa-angle-right"></i>
+                <a href="">JLPT N3</a>
+                <i class="fas fa-angle-right"></i>
+            <span>Shinkanzen N3: Goi</span>
+        </section>
+    </header>
+    <footer class="footer"></footer>
+    <!-- Link Javascript -->
+        <script src="../main.js"></script>
+</body>
+</html>
