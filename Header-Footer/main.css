@@ -160,7 +160,7 @@
 
 @media screen and (max-width: 999px) {
     /* Navbar */
-    #navbar {
+    .navbar {
         padding: 10px 30px;
     }
     .navbar-menu-item {
